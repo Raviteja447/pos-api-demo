@@ -5,6 +5,10 @@
 
 #undef HX_APP_VARIABLES
 
+//#define KEY1    1
+//#define KEY2    2
+//#define CANCEL  0x1B   // ESC key, or use the correct value for your POS
+
 const APP_MSG App_Msg={
 		"Demo-K",				      
 		"Demo-Bank",				 

@@ -43,6 +43,9 @@
 //#define _OUTPUTLOG_    //output log by serial port
 //#define _SAVE_APDU_COMMAND_   //save APDU command into file "ComLog.dat" 
 
+#define KEY1    1
+#define KEY2    2
+#define CANCEL  0x1B   // ESC key, or use the correct value for your POS
 
 
 EXTERN POS_COM PosCom;
